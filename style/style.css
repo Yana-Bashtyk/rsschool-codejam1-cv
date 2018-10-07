@@ -42,15 +42,19 @@ p.objective {
 }
 
 h3 { 
+  position: relative;
+  bottom: 6px;
+  top: 0;
   font: 20px 'Open Sans', sans-serif;
-  margin: 0 0 6px; 
-  position: relative; 
+  color: #e68a00;
+  font-weight: bold;
+  
 }
 
 h3 span { 
   position: absolute; 
   bottom: 0; 
-  right: 0; 
+  right: -20px; 
   font-style: italic; 
   font: 16px 'Istok Web', sans-serif;  
   color: #999; 
@@ -67,7 +71,7 @@ a {
 }
 a:hover { 
   border-bottom-style: solid; 
-  color: black; 
+  color: #e68a00; 
 }
 
 .summary { 
