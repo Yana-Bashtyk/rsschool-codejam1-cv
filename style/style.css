@@ -5,6 +5,9 @@ body {
   line-height: 24px; 
   
 }
+header {
+  margin: 20px;
+}
 .wrapper { 
   max-width: 1024px; 
   margin: 60px auto; 
@@ -43,9 +46,9 @@ p.objective {
 
 h3 { 
   position: relative;
-  bottom: 6px;
+  bottom: 0;
   top: 0;
-  font: 20px 'Open Sans', sans-serif;
+  font: 18px 'Open Sans', sans-serif;
   color: #e68a00;
   font-weight: bold;
   
@@ -54,7 +57,7 @@ h3 {
 h3 span { 
   position: absolute; 
   bottom: 0; 
-  right: -20px; 
+  right: 15px; 
   font-style: italic; 
   font: 16px 'Istok Web', sans-serif;  
   color: #999; 
